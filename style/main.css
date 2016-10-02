@@ -321,10 +321,14 @@ main.about .title{
   justify-content: center;
   align-items: center;
   flex-wrap:wrap;
+  text-align: center;
+}
+main.about .title h1{
+  line-height: 50px;
 }
 main.about .language{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin: 50px auto;
@@ -340,10 +344,13 @@ main.contact .title{
   justify-content: center;
   align-items: center;
   flex-wrap:wrap;
+  line-height: 40px;
+  text-align: center;
 }
 main.contact .title h1{
   width: 80%;
   text-align: center;
+  line-height: 40px;
 }
 main.contact img{
   width: 200px;
